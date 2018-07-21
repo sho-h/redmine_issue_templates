@@ -11,4 +11,5 @@ cd /redmine
 bundle install --without rmagick
 bundle exec rake db:migrate
 bundle exec rake redmine:plugins:migrate
-bundle exec rake redmine:plugins:test
+#bundle exec rake redmine:plugins:test
+bundle exec rake redmine:plugins:test:units
